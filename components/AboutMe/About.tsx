@@ -113,7 +113,7 @@ const About = () => {
       />
       <Paragraph
         className='text-balance w-[85%] mx-auto text-center md:w-full md:text-left'
-        text="This mindset earned me first place in my college's software engineering competition and continue to guide me in turning innovative ideas into intuitive, impactful software."
+        text="This mindset earned me won in my college's software engineering competition and continue to guide me in turning innovative ideas into intuitive, impactful software."
         variants={{
     hidden: { opacity: 0, y: 100 },
     visible: {
