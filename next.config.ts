@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'ui.nafisbd.com',
+        hostname: 'Fai-ob.com',
         port: '',
         pathname: '/**' // Correctly allow all paths under the hostname
       },
