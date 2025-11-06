@@ -1,0 +1,383 @@
+[
+  {
+    "id": 1,
+    "title": "Accident-Eye",
+    "slug": "Accident-Eye",
+    "short_description": "An AI-powered computer vision system for real-time road accident detection using surveillance cameras, combining YOLOv8, CNN, and XGBoost models to enhance traffic safety and emergency response.",
+    "project_type": ["Research", "AI", "Computer Vision"],
+    "project_status": "Completed",
+    "date_started": "01/09/2024",
+    "date_complete": "01/02/2025",
+    "tech_use": ["Python", "XGBoost", "OpenCV", "YOLOv8", "Pandas", "tensorflow", "Keras", "ultralytics"],
+    "project_url": "",
+    "key_features": [
+      {
+      "title": "Hybrid Model Architecture",
+      "desc": "Combines YOLOv8 and CNN for deep feature extraction with XGBoost for robust classification."
+    },
+    {
+      "title": "severity Accident Detection",
+      "desc": "Processes surveillance camera images to identify and classify road accident severity in real time."
+    },
+    {
+      "title": "Data Optimization",
+      "desc": "Includes data cleaning, augmentation, and PCA-based dimensionality reduction for efficient model performance."
+    },
+    {
+      "title": "High Accuracy",
+      "desc": "Achieved 95.73% accuracy with YOLOv8 and 94.58% with the hybrid YOLO-XGBoost model."
+    }
+    ],
+    "challenges_faced": "Handling class imbalance in accident data, and tuning multiple hybrid model parameters.",
+    "project_images": ["/accident-eye.jpg"],
+    "project_videos": [],
+    "github_repo": "https://github.com/FaiOnayq/Accident-Eye",
+    "tags": [
+      "ComputerVision",
+      "DeepLearning",
+      "YOLOv8",
+      "XGBoost",
+      "MachineLearning",
+      "AI",
+      "TrafficSafety",
+      "SmartCity",
+      "Surveillance"
+    ],
+    "views_count": 508,
+    "likes": 168,
+    "description": [
+      "Accident-Eye is a research-driven AI system for detecting and classifying road accidents through surveillance camera images.",
+      "The project integrates YOLOv8 and CNN for feature extraction and XGBoost for classification, forming two hybrid models: YOLO-XGBoost and CNN-XGBoost.",
+      "Data preprocessing included resizing, augmentation, and dimensionality reduction using PCA to enhance performance and generalization.",
+      "YOLOv8 achieved the highest accuracy of 95.73%, while the hybrid YOLO-XGBoost model delivered 94.58% with improved stability and reduced loss.",
+      "The system is designed to accelerate emergency response times and improve safety in smart transportation environments."
+      ],
+      "mode": "normal"
+  },
+  {
+  "id": 2,
+  "title": "Face Recognition for Masked Faces",
+  "slug": "face-recognition-for-masked-faces",
+  "short_description": "Computer vision project that detect and classify face mask distinguishing between with_mask, without_mask, and mask_weared_incorrect.",
+  "project_type": ["AI", "Computer Vision", "Deep Learning"],
+  "project_status": "Completed",
+  "date_started": "01/11/2024",
+  "date_complete": "01/11/2024",
+  "tech_use": ["Python", "YOLOv8", "Ultralytics", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Roboflow"],
+  "project_url": "",
+  "key_features": [
+    {
+      "title": "Mask Detection and Classification",
+      "desc": "Detects and classifies individuals wearing masks correctly, incorrectly, or not at all using YOLOv8."
+    },
+    {
+      "title": "High Accuracy",
+      "desc": "Achieved mAP@0.5 of 93.08% and mAP@0.5–0.95 of 72.98% with strong precision and recall scores."
+    },
+    {
+      "title": "Optimized Training Pipeline",
+      "desc": "Hyperparameters tuned for learning rate, optimizer, dropout, and mixup to maximize performance."
+    }
+  ],
+  "challenges_faced": "Balancing dataset classes, tuning YOLOv8 hyperparameters for accuracy and inference speed",
+  "project_images": ["/mask.gif"],
+  "project_videos": [],
+  "github_repo": "https://github.com/FaiOnayq/FACE-RECOGNITION-FOR-MASKED-FACES-USING-YOLOv8",
+  "tags": [
+    "ComputerVision",
+    "YOLOv8",
+    "DeepLearning",
+    "AI",
+    "FaceDetection",
+    "MaskDetection",
+    "COVID19",
+    "PublicSafety",
+    "Python",
+    "Roboflow"
+  ],
+  "views_count": 0,
+  "likes": 0,
+  "description": [
+    "This project presents a deep learning-based computer vision system for detecting face masks in images and videos using YOLOv8.",
+    "The model identifies three classes: with_mask, without_mask, and mask_weared_incorrect, trained on a Roboflow dataset of 2,699 labeled images.",
+    "Data were stratified into training (80%), validation (10%), and test (10%) sets, with undersampling to balance class distribution.",
+    "Hyperparameters were optimized for learning rate (0.01), batch size (16), and optimizer (AdamW), achieving mAP@0.5 of 93.08% and recall of 86.8%.",
+    "The system is designed for real-time monitoring in public spaces, healthcare facilities, and laboratories to ensure safety compliance and reduce human monitoring effort."
+  ],
+  "mode": "normal"
+},
+{
+  "id": 3,
+  "created_at": "01/02/2025",
+  "title": "TaskWise: Reminder and Academic Management App",
+  "slug": "taskwise",
+  "short_description": "TaskWise is a React Native app that helps users stay organized through task reminders, course management, and a built-in GPA calculator for academic tracking.",
+  "project_type": ["Mobile App", "Productivity", "Education"],
+  "project_status": "Completed",
+  "date_started": "01/01/2025",
+  "date_complete": "01/02/2025",
+  "tech_use": ["React Native", "Expo", "Firebase", "JavaScript", "Android Studio", "Visual Studio Code"],
+  "project_url": "",
+  "key_features": [
+    {
+      "title": "Task Reminder System",
+      "desc": "Allows users to create and manage reminders in calander style by setting titles, descriptions, and specific dates."
+    },
+    {
+      "title": "Course Management",
+      "desc": "Courses section for adding and organizing course details such as name, code, schedule, credits, ...etc."
+    },
+    {
+      "title": "GPA Calculator",
+      "desc": "Enables users to calculate semester and cumulative GPAs using customizable grading scales (4.0 or 5.0)."
+    },
+    {
+      "title": "User Authentication",
+      "desc": "Includes secure login, sign-up, and password recovery using Firebase authentication."
+    },
+    {
+      "title": "Interactive Navigation",
+      "desc": "Implements stack and tab navigation for seamless transitions across Calendar, Courses, and GPA sections."
+    }
+  ],
+  "challenges_faced": "Integrating multiple navigation stacks, managing Firebase authentication securely.",
+  "project_images": ["/taskwise-app.png", "/taskwise.png","/taskwise-pages.jpg"],
+  "project_videos": ["https://www.youtube.com/watch?v=4iUNDNPPw0g"],
+  "github_repo": "https://github.com/FaiOnayq/TaskWise-app-react-native",
+  "tags": [
+    "ReactNative",
+    "MobileApp",
+    "Firebase",
+    "Expo",
+    "JavaScript",
+    "Productivity",
+    "Education",
+    "GPA",
+    "TaskManager",
+    "AcademicTools"
+  ],
+  "views_count": 0,
+  "likes": 0,
+  "description": [
+    "TaskWise is a versatile reminder and academic management app built with React Native and Expo.",
+    "It allows users to create tasks(exams, projects, etc.) with specific dates, manage their academic courses, and calculate GPAs using a simple and intuitive interface.",
+    "The Calendar page uses stack navigation for smooth task management, while the Courses tab provides features to add, view, edit, and delete courses easily.",
+    "The GPA Calculator helps students monitor both semester and cumulative performance, offering flexibility for different grading scales.",
+    "TaskWise is designed to enhance productivity for students by combining reminders, academic organization, and performance tracking in one mobile app."
+  ],
+  "mode": "scroll"
+},
+{
+  "id": 4,
+  "created_at": "2025-11-02",
+  "title": "GlowSpace: Beauty Salons Web Platform",
+  "slug": "glowspace",
+  "short_description": "GlowSpace is a web platform that connects users with the top beauty salons in Riyadh, allowing them to explore services, view ratings, and enabling salon owners to manage their profiles and offerings through an admin panel.",
+  "project_type": ["Web Application", "Full Stack", "Business"],
+  "project_status": "Completed",
+  "date_started": "01/12/2024",
+  "date_complete": "01/02/2025",
+  "tech_use": ["Node.js", "Express.js", "MongoDB", "EJS", "CSS", "JavaScript"],
+  "project_url": "",
+  "key_features": [
+    {
+      "title": "Salon Listing Page",
+      "desc": "Displays all salons with name, logo, rating, and location, featuring a real-time search filter by salon name or location."
+    },
+    {
+      "title": "Individual Salon Detail Page",
+      "desc": "Shows detailed salon information, including services, prices, contact info, and an interactive 5-star rating system with browser cache." 
+    },
+    {
+      "title": "Admin Dashboard",
+      "desc": "Authenticated salon owners can log in, manage salon profiles, add or edit services, and update business details securely."
+    },
+    {
+      "title": "Database Integration",
+      "desc": "MongoDB backend ensures smooth data storage and retrieval for salons and users."
+    },
+    {
+      "title": "Secure Authentication",
+      "desc": "Implements bcrypt password hashing and session management to protect admin access and maintain login states."
+    }
+  ],
+  "challenges_faced": "Integrating secure admin authentication.",
+  "project_images": ["/glowspace-cover.png","/glowspace-home.jpeg","/glowspace-salon.png","/glowspace-login.jpeg","/glowspace-profile.jpeg","/glowspace-dash.jpeg"],
+  "project_videos": [],
+  "github_repo": "https://github.com/FaiOnayq/GlowSpace-web-project",
+  "tags": [
+    "FullStack",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "EJS",
+    "WebApp",
+    "Business",
+    "SalonManagement",
+    "JavaScript",
+    "AdminPanel"
+  ],
+  "views_count": 0,
+  "likes": 0,
+  "description": [
+    "GlowSpace is a dynamic web platform that connects users with leading beauty salons in Riyadh, offering an easy and responsive interface for discovering services and ratings.",
+    "Users can explore salons through a searchable listing, view detailed salon profiles, and interact with a 5-star rating system that allow one vote per salon, and a cookie prevents re-voting during the same browser session.",
+    "Salon owners have access to a secure admin dashboard for managing their salon profiles, services, and contact information.",
+    "Built with Node.js, Express.js, MongoDB, and EJS, the platform uses session-based authentication and bcrypt for secure access control.",
+    "GlowSpace aims to digitalize salon discovery and management while maintaining a modern, user-friendly experience."
+  ],
+  "mode": "scroll"
+},
+{
+  "id": 5,
+  "created_at": "2024-10-22",
+  "title": "Arabic Document Classification and Text Generation Arabic",
+  "slug": "arabic-nlp-classification-and-generation",
+  "short_description": "An NLP project focusing on Arabic text classification and generation using BERT and GPT-2, deployed via a Flask web app and Hugging Face-hosted models.",
+  "project_type": ["NLP", "Machine Learning", "Deep Learning"],
+  "project_status": "Completed",
+  "date_started": "01/10/2024",
+  "date_complete": "01/11/2024",
+  "tech_use": [
+    "Python",
+    "Hugging Face Transformers",
+    "PyTorch",
+    "Pandas",
+    "Scikit-learn",
+    "Flask",
+    "HTML",
+    "CSS"
+  ],
+  "project_url": "",
+  "key_features": [
+    {
+      "title": "Arabic Text Classification with BERT",
+      "desc": "Fine-tuned AraBERT on the Kalimat corpus to classify Arabic text into six categories, achieving 95% accuracy."
+    },
+    {
+      "title": "Text Generation with AraGPT-2",
+      "desc": "Fine-tuned AraGPT-2 model for generating coherent Arabic paragraphs, achieving a perplexity score of 59.44."
+    },
+    {
+      "title": "Hugging Face Model Deployment",
+      "desc": "After fine-tuning, both the classification and generation models were uploaded to Hugging Face, enabling easy public access and API-based inference."
+    },
+    {
+      "title": "Flask Web Interface",
+      "desc": "Developed a Flask web app that integrates directly with the Hugging Face API, allowing users to classify Arabic text and generate new text dynamically."
+    },
+    {
+      "title": "Model Evaluation and Visualization",
+      "desc": "Evaluated models using accuracy, F1-score, confusion matrix, and perplexity metrics; visualized performance comparisons between models."
+    }
+  ],
+  "challenges_faced": "Processing complex Arabic morphology and right-to-left script, fine-tuning large transformer models under limited resources.",
+  "project_images": ["/nlp1.jpeg","/nlp2.jpeg","/nlp3.jpeg"],
+  "project_videos": [],
+  "github_repo": "https://github.com/FaiOnayq/Arabic-Document-Classification-and-Text-Generation",
+  "tags": [
+    "NLP",
+    "ArabicLanguage",
+    "TextClassification",
+    "TextGeneration",
+    "BERT",
+    "GPT2",
+    "AraBERT",
+    "AraGPT2",
+    "Flask",
+    "HuggingFace",
+    "Transformers",
+    "DeepLearning",
+    "MachineLearning"
+  ],
+  "views_count": 0,
+  "likes": 0,
+  "description": [
+    "This project focuses on developing and deploying Arabic NLP models for document classification and text generation tasks.",
+    "Using the Kalimat Arabic Corpus, a fine-tuned AraBERT model achieved 95% accuracy in text classification, outperforming traditional ML baseline 'Random forest' with 93%.",
+    "For text generation, AraGPT-2 was fine-tuned to produce coherent Arabic text with a perplexity of 59.44.",
+    "Both models were uploaded to Hugging Face after training, enabling public access and efficient integration via the Hugging Face Inference API.",
+    "The Flask web app interfaces directly with these hosted models, allowing real-time Arabic text classification and generation through an interactive front-end.",
+    "This project demonstrates the power of transformer-based NLP for Arabic, combining deep learning, web deployment, and real-world usability in one system."
+  ],
+  "mode": "normal"
+},
+{
+  "id": 6,
+  "created_at": "2023-06-03",
+  "title": "دُلني (dulani) ",
+  "slug": "ccis-map",
+  "short_description": "A web-based map system for the female sector of CCIS at Imam Muhammad ibn Saud University. Built to help students, staff, and visitors locate offices and departments easily through a QR-based interactive website.",
+  "project_type": ["Web Development", "Information System", "UI/UX Design"],
+  "project_status": "Completed",
+  "date_started": "01/01/2023",
+  "date_complete": "01/06/2023",
+  "tech_use": [
+    "WordPress",
+    "PHP",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "project_url": "",
+  "key_features": [
+    {
+      "title": "QR Code Access",
+      "desc": "Users can easily access the website by scanning a QR code placed around the CCIS building for quick navigation."
+    },
+    {
+      "title": "Interactive Search System",
+      "desc": "Allows searching by faculty name, office number, or department to display detailed information and location."
+    },
+    {
+      "title": "Dual Interface Design",
+      "desc": "Includes separate interfaces for visitors/students and staff members with distinct permissions and tools."
+    },
+    {
+      "title": "Admin Control Panel",
+      "desc": "Staff members can log in to add, edit, delete, or print office and faculty information securely."
+    },
+    {
+      "title": "Message System",
+      "desc": "Students or visitors can report incorrect or missing data via an internal messaging feature with email notifications."
+    },
+    {
+      "title": "Agile Scrum Development",
+      "desc": "The project was managed using the Agile Scrum methodology, with multiple sprints, team collaboration, and iterative delivery for continuous improvement."
+    }
+  ],
+  "challenges_faced": "Managing two distinct user interfaces (staff and visitors), ensuring database accuracy, implementing search filters for various parameters.",
+  "project_images": ["/dulani1.jpeg", "/dulani3.png", "/dulani4.png", "/dulani5.png", "/dulani6.png", "/dulani2.png", "/dulani6.png", "/dulani7.png", "/dulani8.png"  ],
+  "project_videos": [],
+  "github_repo": "",
+  "tags": [
+    "Agile",
+    "Scrum",
+    "WebDevelopment",
+    "InformationSystem",
+    "WordPress",
+    "PHP",
+    "MySQL",
+    "QRcode",
+    "UniversityProject"
+  ],
+  "views_count": 0,
+  "likes": 0,
+  "description": [
+    "This project was developed to assist students, faculty, and visitors in navigating the female sector of the College of Computer and Information Sciences (CCIS) at Imam Muhammad ibn Saud University.",
+    "The system provides an interactive website accessible via QR code, showing detailed information about office locations and faculty members.",
+    "It supports searching by name, office number, or department, and displays both textual and graphical information about office locations.",
+    "Staff members can log in to manage data by adding, editing, deleting, or printing information about offices and departments.",
+    "Developed under the Agile Scrum methodology, the project was organized into multiple sprints to ensure smooth collaboration, iterative improvement, and timely delivery."
+
+  ],
+  "mode": "normal"
+}
+
+
+
+
+
+  
+]
