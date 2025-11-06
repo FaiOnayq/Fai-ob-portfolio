@@ -13,7 +13,7 @@ export default function Home() {
       <div className='shadow-normalText/25 mx-auto mb-4 max-w-[1440px] rounded-b-3xl shadow drop-shadow-md backdrop-blur-3xl'>
         <AboutMe />
         
-        <Skills />
+        {/*<Skills />*/}
         <Projects />
         <Experience />
         <CallToAction />

@@ -80,7 +80,7 @@
     }
   ],
   "challenges_faced": "Balancing dataset classes, tuning YOLOv8 hyperparameters for accuracy and inference speed",
-  "project_images": ["/mask.gif"],
+  "project_images": ["/mask.gif", "/face1.png", "/face2.png"],
   "project_videos": [],
   "github_repo": "https://github.com/FaiOnayq/FACE-RECOGNITION-FOR-MASKED-FACES-USING-YOLOv8",
   "tags": [
