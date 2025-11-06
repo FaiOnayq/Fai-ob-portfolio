@@ -19,29 +19,9 @@ const ExperienceList = () => {
     }
   }, [controls, isInView])
 
-  const containerVariants = {
-    hidden: { y: 100, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        type: 'spring',
-        damping: 10,
-        stiffness: 100,
-        ease: 'easeInOut',
-        staggerChildren: 0.5
-      }
-    }
-  } as const
 
   return (
-    <motion.div
-      className='mx-auto max-w-[760px] px-4'
-      ref={ref}
-      variants={containerVariants}
-      initial='hidden'
-      animate={controls}
-    >
+    <div className='mx-auto max-w-[760px] px-4' >
       <Timeline position="right" lineStyle="dashed">
         {experience.map((exp, index) => (
           <TimelineItem key={exp.id} className={`text-text-muted ${poppins.className}`}>
@@ -70,7 +50,7 @@ const ExperienceList = () => {
           </TimelineItem>
         ))}
       </Timeline>
-    </motion.div>
+    </div>
   )
 }
 
