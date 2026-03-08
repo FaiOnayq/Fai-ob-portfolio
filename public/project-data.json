@@ -113,7 +113,7 @@
       "mode": "normal"
   },
   {
-  "id": 2,
+  "id": 3,
   "title": "Face Recognition for Masked Faces",
   "slug": "face-recognition-for-masked-faces",
   "short_description": "Computer vision project that detect and classify face mask distinguishing between with_mask, without_mask, and mask_weared_incorrect.",
@@ -165,7 +165,7 @@
   "mode": "normal"
 },
 {
-  "id": 3,
+  "id": 4,
   "created_at": "01/02/2025",
   "title": "TaskWise: Reminder and Academic Management App",
   "slug": "taskwise",
@@ -226,7 +226,7 @@
   "mode": "scroll"
 },
 {
-  "id": 4,
+  "id": 5,
   "created_at": "2025-11-02",
   "title": "GlowSpace: Beauty Salons Web Platform",
   "slug": "glowspace",
@@ -287,7 +287,7 @@
   "mode": "scroll"
 },
 {
-  "id": 5,
+  "id": 6,
   "created_at": "2024-10-22",
   "title": "Arabic Document Classification and Text Generation Arabic",
   "slug": "arabic-nlp-classification-and-generation",
@@ -361,7 +361,7 @@
   "mode": "normal"
 },
 {
-  "id": 6,
+  "id": 7,
   "created_at": "2023-06-03",
   "title": "دُلني (dulani) ",
   "slug": "ccis-map",
