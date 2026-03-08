@@ -70,9 +70,9 @@ export default function RootLayout({
     url: 'https://Fai-bo.com',
     sameAs: [
       'https://github.com/FaiOnayq',
-      'https://www.linkedin.com/in/fai-bin-onayq-ab079b20a/'
+      'https://www.linkedin.com/in/fai-alonayq-ab079b20a/'
     ],
-    jobTitle: 'AI Engineer',
+    jobTitle: '',
     description:
       'Fai Bin Onayq is Computer Science graduate ranked #1 in my class-building intelligent, full-stack systems that solve real-world problems with Al, data science, and clean, maintainable code.',
     knowsAbout: [

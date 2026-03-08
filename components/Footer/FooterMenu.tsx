@@ -11,7 +11,7 @@ const FooterMenu = () => {
       className={`flex flex-col items-center gap-4 font-light lg:flex-row lg:gap-8 ${poppins.className}`}>
       <ul className='flex items-center gap-2'>
         <li>
-          <Link href="https://www.linkedin.com/in/fai-bin-onayq-ab079b20a//">
+          <Link href="https://www.linkedin.com/in/fai-alonayq-ab079b20a//">
             <LinkedInIcon className='aspect-square w-5 text-headingText dark:text-headingDarkText' />
           </Link>
         </li>

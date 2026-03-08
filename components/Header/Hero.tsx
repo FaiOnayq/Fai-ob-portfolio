@@ -29,7 +29,7 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ ...spring, delay: 0.1 }}
         >
-          Fai bin Onayq
+          Fai AlOnayq
         </motion.h1>
         <motion.p
           className={`mt-4 text-pretty text-center text-lg font-normal text-normalText dark:text-normalDarkText md:text-left ${poppins.className}`}
@@ -37,12 +37,11 @@ const Hero = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ ...spring, delay: 0.4 }}
         >
-          A passionate{' '}
+          Computer Science graduate,{' '}
           <span className='text-primaryColor transition-all duration-150 ease-in-out hover:border-b-2 hover:border-primaryColor'>
-            AI & Data Science Engineer   
+            First in Batch,   
           </span>{' '}
-          with hands-on experience in building intelligent systems—from computer vision and Arabic NLP 
-          to end-to-end cloud-deployed applications—driven by clean code, real-world impact,and continuous learning.
+          with a passion for building intelligent, full-stack systems — bridging AI engineering and cloud-deployed applications.
         </motion.p>
       </div>
       <div className='grid place-items-center'>

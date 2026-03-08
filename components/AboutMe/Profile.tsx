@@ -56,7 +56,7 @@ const Profile = () => {
         </span>
         <ul className='flex items-center gap-2'>
           <li>
-            <Link href="https://www.linkedin.com/in/fai-bin-onayq-ab079b20a/">
+            <Link href="https://www.linkedin.com/in/fai-alonayq-ab079b20a/">
               <LinkedInIcon className='aspect-square w-6 text-headingText dark:text-headingDarkText' />
             </Link>
           </li>

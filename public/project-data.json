@@ -1,6 +1,64 @@
 [
   {
     "id": 1,
+    "title": "Minhaj: Courses Builder",
+    "slug": "Minhaj",
+    "short_description": "An agent-based platform that transforms instructor inputs into a complete, structured, and exportable curriculum—including syllabus, slides, labs, and exams—in just one click.",
+    "project_type": ["AI", "EdTech", "Agent Architecture", "Full-Stack"],
+    "project_status": "Completed",
+    "date_started": "015/01/2026",
+    "date_complete": "03/02/2026",
+    "tech_use": ["Python", "FastAPI", "LangGraph", "Groq API", "Tavily Search API", "CSS", "JavaScript", "HTML5", "Railway", "uv"],
+    "project_url": "https://minhaj-vaew.onrender.com/",
+    "key_features": [
+    {
+      "title": "One-Click Course Generation",
+      "desc": "Generates a full curriculum based on target topic, learner level, course duration, preferred tools, learning goals, and optional reference materials."
+    },
+    {
+      "title": "Agent-Based AI Architecture",
+      "desc": "Modular design with specialized agents (Interpreter, Planner, Researcher, Content Generators, Validator) working in orchestrated pipeline for high-quality output."
+    },
+    {
+      "title": "Real-Time Web Research Integration",
+      "desc": "Uses Tavily API to ground curriculum content in up-to-date industry tools, frameworks, best practices, and emerging trends."
+    },
+    {
+      "title": "Structured Export System",
+      "desc": "Outputs a downloadable ZIP package containing syllabus, slide outlines, hands-on labs, and assessments aligned with learning objectives."
+    }
+    ],
+    "challenges_faced": "Coordinating multiple AI agents with distinct responsibilities while maintaining output consistency; filtering and synthesizing real-time web research without introducing noise or irrelevant information.",
+    "project_images": ["/minhaj.jpeg", "/minhaj_sample.png", "/minhaj_slide.jpeg", "/minhaj_lab.jpeg", "/minhaj_quiz.jpeg"],
+    "project_videos": [],
+    "github_repo": "https://github.com/FaiOnayq/minhaj.git",
+    "tags": [
+      "AIAgents",
+      "EdTech",
+      "CurriculumDesign",
+      "LangGraph",
+      "Groq",
+      "Tavily",
+      "FastAPI",
+      "FullStack",
+      "AIAutomation",
+      "LearningTools",
+      "GenerativeAI",
+      "Education"
+    ],
+    "views_count": 508,
+    "likes": 168,
+    "description": [
+      "Minhaj is an agent-based AI system that transforms instructor inputs into complete, structured, and exportable curricula—including syllabus, slides, labs, and exams—in just one click.",
+      "Built with a modular agent architecture using LangGraph, Minhaj orchestrates specialized agents: Interpreter (structures user inputs), Web Research Agent (Tavily-powered grounding), Knowledge Synthesizer (filters and organizes findings), Curriculum Planner (designs weekly module structure), Validation & Alignment Agent (ensures pedagogical consistency), and Content Generation Agents (Slides, Labs, Exams).",
+      "The system grounds curriculum content in real-world knowledge via Tavily web search, ensuring up-to-date tools, frameworks, and best practices are incorporated into every generated course.",
+      "A clean, responsive frontend built with HTML5, Tailwind CSS, and Vanilla JavaScript provides a fast, intuitive user experience, while the backend leverages Python and FastAPI for robust, JSON-based REST API handling.",
+      "Minhaj outputs a downloadable ZIP package containing all course materials, ready for immediate use by educators, trainers, and institutions—accelerating course development while maintaining quality and alignment."
+      ],
+      "mode": "scroll"
+  },
+  {
+    "id": 2,
     "title": "Accident-Eye",
     "slug": "Accident-Eye",
     "short_description": "An AI-powered computer vision system for real-time road accident detection using surveillance cameras, combining YOLOv8, CNN, and XGBoost models to enhance traffic safety and emergency response.",
