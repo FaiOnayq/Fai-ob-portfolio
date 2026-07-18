@@ -236,7 +236,7 @@
   "date_started": "01/12/2024",
   "date_complete": "01/02/2025",
   "tech_use": ["Node.js", "Express.js", "MongoDB", "EJS", "CSS", "JavaScript"],
-  "project_url": "",
+  "project_url": "https://glowspace-91y0.onrender.com/salons",
   "key_features": [
     {
       "title": "Salon Listing Page",
