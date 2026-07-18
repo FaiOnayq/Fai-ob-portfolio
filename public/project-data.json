@@ -9,7 +9,7 @@
     "date_started": "015/01/2026",
     "date_complete": "03/02/2026",
     "tech_use": ["Python", "FastAPI", "LangGraph", "Groq API", "Tavily Search API", "CSS", "JavaScript", "HTML5", "Railway", "uv"],
-    "project_url": "https://minhaj-vaew.onrender.com/",
+    "project_url": "https://minhaj-ai.vercel.app/",
     "key_features": [
     {
       "title": "One-Click Course Generation",
@@ -50,10 +50,12 @@
     "likes": 168,
     "description": [
       "Minhaj is an agent-based AI system that transforms instructor inputs into complete, structured, and exportable curricula—including syllabus, slides, labs, and exams—in just one click.",
+      "https://minhaj-vaew.onrender.com/",
       "Built with a modular agent architecture using LangGraph, Minhaj orchestrates specialized agents: Interpreter (structures user inputs), Web Research Agent (Tavily-powered grounding), Knowledge Synthesizer (filters and organizes findings), Curriculum Planner (designs weekly module structure), Validation & Alignment Agent (ensures pedagogical consistency), and Content Generation Agents (Slides, Labs, Exams).",
       "The system grounds curriculum content in real-world knowledge via Tavily web search, ensuring up-to-date tools, frameworks, and best practices are incorporated into every generated course.",
       "A clean, responsive frontend built with HTML5, Tailwind CSS, and Vanilla JavaScript provides a fast, intuitive user experience, while the backend leverages Python and FastAPI for robust, JSON-based REST API handling.",
       "Minhaj outputs a downloadable ZIP package containing all course materials, ready for immediate use by educators, trainers, and institutions—accelerating course development while maintaining quality and alignment."
+
       ],
       "mode": "scroll"
   },
