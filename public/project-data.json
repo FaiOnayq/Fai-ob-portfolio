@@ -58,7 +58,7 @@
       "mode": "scroll"
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Accident-Eye",
     "slug": "Accident-Eye",
     "short_description": "An AI-powered computer vision system for real-time road accident detection using surveillance cameras, combining YOLOv8, CNN, and XGBoost models to enhance traffic safety and emergency response.",
@@ -113,7 +113,7 @@
       "mode": "normal"
   },
   {
-  "id": 3,
+  "id": 4,
   "title": "Face Recognition for Masked Faces",
   "slug": "face-recognition-for-masked-faces",
   "short_description": "Computer vision project that detect and classify face mask distinguishing between with_mask, without_mask, and mask_weared_incorrect.",
@@ -165,7 +165,7 @@
   "mode": "normal"
 },
 {
-  "id": 4,
+  "id": 3,
   "created_at": "01/02/2025",
   "title": "TaskWise: Reminder and Academic Management App",
   "slug": "taskwise",
@@ -226,7 +226,7 @@
   "mode": "scroll"
 },
 {
-  "id": 5,
+  "id": 2,
   "created_at": "2025-11-02",
   "title": "GlowSpace: Beauty Salons Web Platform",
   "slug": "glowspace",
